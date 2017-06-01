@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    //入力に戻る関数
+    $('#return').click(function(){
+        $('#form').attr('action','index.php?action=return');
+        $('#form').submit();
+    });
+    //メールを送信する関数
+    $('#send').click(function(){
+        $('#form').submit();
+    });
+});
